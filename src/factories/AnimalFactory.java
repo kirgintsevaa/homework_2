@@ -1,4 +1,5 @@
 package factories;
+
 import animals.AbsAnimal;
 import animals.birds.Duck;
 import animals.pets.Cat;

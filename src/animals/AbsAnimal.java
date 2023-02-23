@@ -2,22 +2,15 @@ package animals;
 
 public abstract class AbsAnimal {
 
-    private String type;
     private String name;
     private int age;
     private int weight;
     private String color;
 
-    public String getType() {
-        return this.type;
-    }
-    public void setType(String type) {
-        this.type = type;
-    }
-
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -63,7 +56,7 @@ public abstract class AbsAnimal {
     }
 
     public String toString() {
-        return String.format("Привет! меня зовут %s, мне %d %s, я вешу - %d кг, мой цвет - %s", name, age, getYearStringPadej(age), weight, color);
+        return String.format("\nПривет! меня зовут %s, мне %d %s, я вешу - %d кг, мой цвет - %s", name, age, getYearStringPadej(age), weight, color);
     }
 
     private String getYearStringPadej(int age) {

@@ -4,4 +4,5 @@ public enum CommandsData {
     ADD,
     LIST,
     EXIT;
+
 }

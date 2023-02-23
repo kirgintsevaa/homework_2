@@ -4,4 +4,5 @@ public enum AnimalTypeData {
     CAT,
     DOG,
     DUCK;
+
 }
